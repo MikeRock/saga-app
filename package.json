@@ -1,0 +1,36 @@
+{
+  "name": "saga-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "babel-node server.js",
+    "prod": "babel-node ./node_modules/webpack/bin/webpack --env development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "chunk-manifest-webpack-plugin": "^1.1.2",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-observable": "^0.17.0",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.9.1"
+  }
+}
